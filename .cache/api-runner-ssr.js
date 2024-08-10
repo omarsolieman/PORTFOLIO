@@ -1,23 +1,23 @@
 var plugins = [{
-      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/PORTFOLIO/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/PORTFOLIO/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[],"output":"/sitemap.xml","createLinkInHead":true},
     },{
-      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/PORTFOLIO/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"displayName":true,"fileName":true,"minify":true,"transpileTemplateLiterals":true,"pure":false},
     },{
-      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/PORTFOLIO/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/node_modules/gatsby-plugin-gdpr-cookies/gatsby-ssr'),
+      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/PORTFOLIO/node_modules/gatsby-plugin-gdpr-cookies/gatsby-ssr'),
       options: {"plugins":[],"googleAnalytics":{"trackingId":"G-RELNEB8GEJ","cookieName":"gatsby-gdpr-google-analytics","anonymize":true,"allowAdFeatures":false},"environments":["production"]},
     },{
-      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/PORTFOLIO/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Omar Solieman - Portfolio","short_name":"Omar","start_url":"/","background_color":"#FFFFFF","theme_color":"#000000","display":"minimal-ui","icon":"content/favicon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"ced84d41693f9b84f0e41be4e613bf7a"},
     },{
-      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      plugin: require('C:/Users/Omar Taher/Desktop/Current Projects/PORTFOLIO/PORTFOLIO/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
       options: {"plugins":[],"extensions":[".mdx",".md"],"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images","options":{"maxWidth":1000,"quality":80}}],"defaultLayouts":{},"lessBabel":false,"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
